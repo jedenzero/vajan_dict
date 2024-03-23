@@ -34,6 +34,9 @@
   <script>
     var sheet='13LICoyhYt4Do9R24ktfoDpSDFxhHKpO-r44P3ROTJZQ';
     var lang='ne';
+    if(new URL(window.location.href).searchParams.get('lang')){
+	    lang=new URL(window.location.href).searchParams.get('lang');
+    }
     window.onload=function(){
     	resetLang();
     }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>바얀 통합 사전</title>
+    <link rel="stylesheet" href="../grayblue.css">
+  </head>
+  <body>
+    <div id="header"></div>
+    <div>
+	<h1 id="greet" style="text-align:center;"></h1>
+	<p id="total_amount" style="text-align:center;padding-left:50px;padding-right:50px;">
+    </div>
+    <div class="contain" id="contain" style="width:260px;">
+    <div class="underline" id="underline">
+      <input type="text" id="search" onkeyup="search()">
+    </div>
+    <p id="search_amount"></p>
+    <div id="output"></div>
+    <div style="height:100px;"></div>
+    </div>
+    <div id="floating" style="visibility:hidden;">
+    </div>
+    <div id="gnitaolf" onclick="visible()">
+      <i class="fi fi-br-bars-filter"></i>
+    </div>
+    <div id="modal" style="visibility:hidden;"></div>
+    <svg id="svg" style="display:none;width:100vw;"></svg>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script>
+    var sheet='13LICoyhYt4Do9R24ktfoDpSDFxhHKpO-r44P3ROTJZQ';
+    var lang='ne';
+  </script>
+  <script src="/dictionary.js"></script>
+</html>

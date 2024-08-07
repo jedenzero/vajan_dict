@@ -5,3 +5,4 @@ Vajanăk očenijeze.
 > Sylaneči... Lanež nuč!
 * 기본적인 기능 (select를 사용하여 언어를 변환할 수 있다) 완성
 * 뭔가 더 떠오르진 않는다...
+> (szauve로 대체됨)
